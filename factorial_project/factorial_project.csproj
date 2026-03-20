@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>Factorial_Project</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Altimesh.Hybridizer.Runtime.CUDAImports" Version="2.1.4" />
+      <PackageReference Include="Driver.NET" Version="2.3.4" />
+      <PackageReference Include="Hybridizer.Runtime.CUDAImports" Version="3.1.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="11.0.0-preview.2.26159.112" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="11.0.0-preview.2.26159.112" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="11.0.0-preview.2.26159.112" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="11.0.0-preview.2.26159.112" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="11.0.0-preview.2.26159.112" />
+      <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="11.0.0-preview.2.26159.112" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.3.0" />
+      <PackageReference Include="Microsoft.Playwright" Version="1.58.0" />
+      <PackageReference Include="Microsoft.Playwright.NUnit" Version="1.58.0" />
+      <PackageReference Include="NUnit.Extension.NUnitV2Driver" Version="3.9.0" />
+      <PackageReference Include="PlaywrightDriver" Version="1.1.27" />
+      <PackageReference Include="Reqnroll" Version="3.3.3" />
+      <PackageReference Include="Reqnroll.NUnit" Version="3.3.3" />
+      <PackageReference Include="SR-Client" Version="2025.6.2.1955" />
+      <PackageReference Include="VGMToolbox" Version="1.0.0.1040" />
+      <PackageReference Include="WebDriverManager" Version="2.17.7" />
+    </ItemGroup>
+
+</Project>
